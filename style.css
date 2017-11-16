@@ -1,0 +1,23 @@
+body{
+}
+
+.div{
+	position: relative;
+	background-color: yellow;
+	text-align: justify;
+	left: 0px;
+	padding: 10px 30px 10px 30px;
+	display: block;
+
+}
+
+img{
+	display: inline-block;
+}
+
+#cuadrado{
+	background-color: transparent;
+	position: relative;
+	top: -250px;
+	left: 10px;
+}
