@@ -1,6 +1,6 @@
 body{
+	width: 100%;
 }
-
 .div{
 	position: relative;
 	background-color: yellow;
@@ -12,12 +12,5 @@ body{
 }
 
 img{
-	display: inline-block;
-}
-
-#cuadrado{
-	background-color: transparent;
-	position: relative;
-	top: -250px;
-	left: 10px;
+	display: inline;
 }
