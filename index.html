@@ -3,35 +3,44 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>Gimp</title>
+	<title>Inicio</title>
 </head>
 <body>
 <nav>
 	<ul>
-		<a href="index.html"><il>Inicio</il></a>
-		<a href="arrugas.html"><il>Arrugas</il></a>
-		<a href="tutorial_gif.html"><il>Gif</il></a>
-		<a><il>ola</il></a>
+		<a href="index.html"><li>Inicio</li></a>
+		<a href="arrugas.html"><li>Arrugas</li></a>
+		<a href="tutorial_gif.html"><li>Gif</li></a>
+		<a href="svg.html"><li>Svg</li></a>
 	</ul>
 </nav>
+<div class="fondo">
+	<div id = "infoGimp">
+		<h2>Que es el GIMP?</h2>
+		<p>GIMP va ser desenvolupat com una alternativa lliure al Photoshop, però aquest últim encara domina el mercat en les indústries d'impressió i gràfiques.</p>
 
-<div class = "div" id = "infoGimp">
-	<p>GIMP va ser desenvolupat com una alternativa lliure al Photoshop, però aquest últim encara domina el mercat en les indústries d'impressió i gràfiques.</p>
+		<p>GIMP es el programa de manipulación de imágenes GNU. Es una pieza libremente distribuida de software para tareas como retoque fotográfico, composición de imagen y
+		creación de imagen. Utiliza gráficos de mapa de bits, que en este caso es una cuadrícula de píxeles por donde el valor de color de cada píxel individual es guardado
+		y aparece en su pantalla. Esta es la base de formatos de archivo como JPG y PNG.</p>
+		
+		<h2>Diferencia entre el Inkscape</h2>
+		<p>La diferencia entre Inkscape y Gimp es que Inkscape utiliza gráficos vectoriales, mientras que Gimp utiliza gráficos rasterizados (gráficos de mapa de bits). El vector
+		es preferido para diseños más simples que se basan en formas y puntos geométricos. No quiere decir que no se pueden crear gráficos complejos con el vector, pero terminarás
+		en mucho tiempo el procesamiento. Mientras que los formatos vectoriales son muy dinámicos y perfectos en calidad, no hay máxima compatibilidad para las aplicaciones, lo que
+		puede dar lugar a problemas de representación.
+		El mapa de bits se utiliza mejor cuando sus gráficos o fotos requieren la máxima cantidad de detalles, pero estar preparados para aumentar rápidamente los tamaños del archivo
+		y la pérdida de definición cuando usted necesita agrandar o aumentar el zoom. Los formatos de mapa de bits son una manera fácil y compatible para mostrar todo lo que quieras,
+		son mucho más difíciles de editar e imposible aumentar la calidad sin necesidad de cambiar la fuente.</p>
+	</div>
 
-	<p>A més d'un ús interactiu, GIMP permet l'automatització de molts processos mitjançant macros. Inclou un llenguatge dit Scheme que es pot usar per a això, a més d'altres alternatives com Perl, Python, Tcl i (experimentalment) Ruby. D'aquesta manera es permet escriure guions i plugins per a GIMP que pot després ser utilitzat interactivament; a més és possible produir imatges de manera totalment no interactiva (per exemple, generar al vol imatges per a una pàgina web usant guions CGI) i realitzar un processament per lots que canviï el color o converteixi imatges. Per a tasques automatitzables més simples, probablement sigui més ràpid utilitzar un paquet com el ImageMagick, però GIMP té característiques molt més potents.</p>
+	<div id = "bHerramientas">
+		<h2>Algunas de sus herramientas:</h2>
+		<img style="left:0%; margin-left: 2%; margin-right: 1%;" src="img/1.png">Esta herramienta sirve para seleccionar areas rectangulares de la imagen.<br>
+		<img style="left:0%; margin-left: 2%; margin-right: 1%;" src="img/2.png">Esta herramienta sirve para seleccionar areas circulares y elípticas de la imagen.<br>
+		<img style="left:0%; margin-left: 2%; margin-right: 1%;" src="img/3.png">La goma de borrar sirve, como su nombre indica, para borrar areas de la capa actual o de una selección<br>
+		<img style="left:0%; margin-left: 2%; margin-right: 1%;" src="img/4.png">La herramienta de clonar sirve para copiar una seccion del area de la imagen y copiarla.<br>
 
-	<p>GIMP usa GTK+ com a biblioteca de controls gràfics; en realitat, GTK+ era al principi part de GIMP, en un intent de reemplaçar la biblioteca comercial Motif, de la qual originalment depenia GIMP. GIMP i GTK+ van ser originalment dissenyats per al sistema X Window executat sobre sistemes operatius tipus Unix, però han estat portats a Windows, OS/2, Mac OS X i SkyOS.</p>
-
-	<p>Les versions actuals de GIMP (el juliol del 2006) són: estable 2.2.12 (per a usuaris finals) i de desenvolupament 2.3.10 (per a usuaris de prova, revisió i millora del programa). Els canvis més importants respecte a la versió 1.2 inclouen una interfície més polit i una separació major entre la interfície d'usuari i el back-end. Per al futur, es planeja basar GIMP en una biblioteca gràfica més general anomenada GEGL, atacant d'aquesta forma algunes limitacions fonamentals del disseny que impedeixen moltes millores, com per exemple el suport natiu de CMYK.</p>
+	</div>
 </div>
-
-<div class = "div" id = "bHerramientas">
-	<img src="img/1.png">Esta herrmiento sirva para seleccionar areas rectangulares de la imagen.<br>
-	<img src="img/2.png">ta herrmiento sirva para seleccionar areas circulares y elípticas de la imagen.<br>
-	<img src="img/3.png">La goma de borrar sirve, como su nombre indica, para borrar areas de la capa actual o de una selección<br>
-	<img src="img/4.png">La herramienta de clonar sirve para copiar una seccion del area de la imagen y copiarla.<br>
-
-</div>
-
 </body>
 </html>
